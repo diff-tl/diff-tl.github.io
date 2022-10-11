@@ -88,13 +88,20 @@ body {
 }
 
 .page__content {
+
+  margin: 0 15%;
+
+  h1 {
+    text-align: center;
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
 
 	h1, h2, h3, h4, h5, h6 {
-		.header-link {
+    .header-link {
 			position: relative;
 			left: 0.5em;
 			opacity: 0;
@@ -187,8 +194,8 @@ body {
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+    margin-bottom: -2em;
+    padding: 2em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,7 +206,9 @@ body {
     animation-delay: 0.25s;
 
     a {
-        color: mix(#000, $gray, 50%);
+        // color: mix(#000, $gray, 50%);
+      color: #32a4a8;
+      text-decoration: none;
     }
 
     .wrapper {
@@ -226,6 +235,7 @@ body {
 
     .page__title {
       font-size: $type-size-4;
+      line-height: normal;
 
       @include breakpoint($small) {
         font-size: $type-size-3;
