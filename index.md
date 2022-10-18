@@ -23,8 +23,15 @@ header:
 
 title: "<div id=\"toc\">
 Don't Pour Cereal into Coffee: <br>
-Differentiable Temporal Logic for Temporal Action Segmentation</div>"
+Differentiable Temporal Logic for Temporal Action Segmentation
+</div>"
 ---
+
+<video autoplay preload controls object-fit="cover" width="100%" height="100%">
+  <source src="assets/videos/animation.mp4" type="video/mp4">
+</video>
+
+
 
 - [Abstract](#abstract)
 - [How does it work?](#how-does-it-work)
