@@ -1,17 +1,27 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?...">
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        macros: {
+          Vec: ["\\boldsymbol{#1}", 1],
+          hVec: ["\\hat{\\boldsymbol{#1}}", 1],
+          Mat: ["\\boldsymbol{#1}", 1],
+          Set: ["\\mathcal{#1}", 1]
+         }
+      },
+      options: {
+        skipHtmlTags: {'[-]': ['code']}
+      }
+    };
+  </script>
+  
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+  
 
-<!-- <style>
-  #video-viewport {
-    position: absolute;
-    top: 0;
-    left:0;
-    overflow: hidden;
-    z-index: -1; /* for accessing the video by click */
-}
-</style> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">

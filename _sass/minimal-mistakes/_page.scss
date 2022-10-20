@@ -156,7 +156,9 @@ body {
     &::before,
     &::after {
       letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
+      // content: "\00a0"; /* non-breaking space*/
+      // disable this because we use code blocks for mathjax processing
+      content: ""
     }
   }
 
