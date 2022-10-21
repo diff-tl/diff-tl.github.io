@@ -7,3 +7,13 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+figure.cfig {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+figcaption.cfigcap {
+    margin-left: auto; 
+    margin-right: auto;
+}
