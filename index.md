@@ -165,7 +165,7 @@ Following this definition, evaluation becomes propagation of logits in a DAG con
   <figcaption class="cfigcap">Evaluation of an example formula using logits from two actions. 
   The constraint is first written as formula $\psi = (\neg a_1 \tlwkuntil a_2)$, then represented as a DAG.
   (1) - (5) show how $f_0(\neg a_1 \tlwkuntil a_2, \hVec{y})$ is computed.
-  (1) shows the output $\hVec{y}$ of task model, where green boxes indicate positive values (\tlaction{True}) and grey boxes indicate negative values (\tlaction{False}).
+  (1) shows the output $\hVec{y}$ of task model, where green boxes indicate positive values ($\tlaction{True}$) and grey boxes indicate negative values ($\tlaction{False}$).
   (2) and (3) show the evaluation of leaf nodes $a_1$ and $a_2$, which is the start of evaluation.
   (4) takes the evaluation results for $a_1$ from (2) and evaluate $\neg a_1$.
   In (5), the $\tlwkuntil$ node uses the result for $\neg a_1$ from (4) and $a_2$ from (3) to perform the evaluation for $(\neg a_1 \tlwkuntil a_2)$.
